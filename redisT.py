@@ -12,3 +12,5 @@ r = redis.StrictRedis(connection_pool=pool)
 print("set key-value result: " + str(r.set('hello', 'Oliu')))
 print("get key-value result: " + str(r.get('hello')))
 
+#where
+
