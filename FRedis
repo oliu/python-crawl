@@ -2,6 +2,7 @@ import redis
 
 # method one
 # r = redis.Redis(host='localhost', port=6379, db=0)
+#test3
 
 # method two
 pool = redis.ConnectionPool(host='localhost', port=6379, db=0)
